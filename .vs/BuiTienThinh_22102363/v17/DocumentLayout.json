@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\thinh\\BuITienThinh_22102363\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0B2ACB-7475-4309-9091-242B2AB9ABDE}|BuiTienThinh_22102363.csproj|e:\\thinh\\buitienthinh_22102363\\qltk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0B2ACB-7475-4309-9091-242B2AB9ABDE}|BuiTienThinh_22102363.csproj|solutionrelative:qltk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0B2ACB-7475-4309-9091-242B2AB9ABDE}|BuiTienThinh_22102363.csproj|e:\\thinh\\buitienthinh_22102363\\mainformcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0B2ACB-7475-4309-9091-242B2AB9ABDE}|BuiTienThinh_22102363.csproj|solutionrelative:mainformcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0B2ACB-7475-4309-9091-242B2AB9ABDE}|BuiTienThinh_22102363.csproj|E:\\thinh\\BuITienThinh_22102363\\mainformcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0A0B2ACB-7475-4309-9091-242B2AB9ABDE}|BuiTienThinh_22102363.csproj|solutionrelative:mainformcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0B2ACB-7475-4309-9091-242B2AB9ABDE}|BuiTienThinh_22102363.csproj|e:\\thinh\\buitienthinh_22102363\\functionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0B2ACB-7475-4309-9091-242B2AB9ABDE}|BuiTienThinh_22102363.csproj|solutionrelative:functionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0B2ACB-7475-4309-9091-242B2AB9ABDE}|BuiTienThinh_22102363.csproj|E:\\thinh\\BuITienThinh_22102363\\qltk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0A0B2ACB-7475-4309-9091-242B2AB9ABDE}|BuiTienThinh_22102363.csproj|solutionrelative:qltk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0B2ACB-7475-4309-9091-242B2AB9ABDE}|BuiTienThinh_22102363.csproj|e:\\thinh\\buitienthinh_22102363\\banhangtreeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0B2ACB-7475-4309-9091-242B2AB9ABDE}|BuiTienThinh_22102363.csproj|solutionrelative:banhangtreeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0B2ACB-7475-4309-9091-242B2AB9ABDE}|BuiTienThinh_22102363.csproj|e:\\thinh\\buitienthinh_22102363\\dao\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0B2ACB-7475-4309-9091-242B2AB9ABDE}|BuiTienThinh_22102363.csproj|solutionrelative:dao\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0B2ACB-7475-4309-9091-242B2AB9ABDE}|BuiTienThinh_22102363.csproj|e:\\thinh\\buitienthinh_22102363\\bus\\accountbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0B2ACB-7475-4309-9091-242B2AB9ABDE}|BuiTienThinh_22102363.csproj|solutionrelative:bus\\accountbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QLTK.cs",
+              "DocumentMoniker": "E:\\thinh\\BuITienThinh_22102363\\QLTK.cs",
+              "RelativeDocumentMoniker": "QLTK.cs",
+              "ToolTip": "E:\\thinh\\BuITienThinh_22102363\\QLTK.cs",
+              "RelativeToolTip": "QLTK.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T07:28:16.262Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainFormcs.cs",
+              "DocumentMoniker": "E:\\thinh\\BuITienThinh_22102363\\MainFormcs.cs",
+              "RelativeDocumentMoniker": "MainFormcs.cs",
+              "ToolTip": "E:\\thinh\\BuITienThinh_22102363\\MainFormcs.cs",
+              "RelativeToolTip": "MainFormcs.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwFQAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T07:34:02.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainFormcs.cs [Design]",
+              "DocumentMoniker": "E:\\thinh\\BuITienThinh_22102363\\MainFormcs.cs",
+              "RelativeDocumentMoniker": "MainFormcs.cs",
+              "ToolTip": "E:\\thinh\\BuITienThinh_22102363\\MainFormcs.cs [Design]",
+              "RelativeToolTip": "MainFormcs.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T07:33:08.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QLTK.cs [Design]",
+              "DocumentMoniker": "E:\\thinh\\BuITienThinh_22102363\\QLTK.cs",
+              "RelativeDocumentMoniker": "QLTK.cs",
+              "ToolTip": "E:\\thinh\\BuITienThinh_22102363\\QLTK.cs [Design]",
+              "RelativeToolTip": "QLTK.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T07:29:50.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BanHangTreeView.cs",
+              "DocumentMoniker": "E:\\thinh\\BuITienThinh_22102363\\BanHangTreeView.cs",
+              "RelativeDocumentMoniker": "BanHangTreeView.cs",
+              "ToolTip": "E:\\thinh\\BuITienThinh_22102363\\BanHangTreeView.cs",
+              "RelativeToolTip": "BanHangTreeView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T07:25:05.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountDAO.cs",
+              "DocumentMoniker": "E:\\thinh\\BuITienThinh_22102363\\DAO\\AccountDAO.cs",
+              "RelativeDocumentMoniker": "DAO\\AccountDAO.cs",
+              "ToolTip": "E:\\thinh\\BuITienThinh_22102363\\DAO\\AccountDAO.cs",
+              "RelativeToolTip": "DAO\\AccountDAO.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAADwv2kAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T07:20:26.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountBUS.cs",
+              "DocumentMoniker": "E:\\thinh\\BuITienThinh_22102363\\BUS\\AccountBUS.cs",
+              "RelativeDocumentMoniker": "BUS\\AccountBUS.cs",
+              "ToolTip": "E:\\thinh\\BuITienThinh_22102363\\BUS\\AccountBUS.cs",
+              "RelativeToolTip": "BUS\\AccountBUS.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAYwEQAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T07:19:29.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FunctionHelper.cs",
+              "DocumentMoniker": "E:\\thinh\\BuITienThinh_22102363\\FunctionHelper.cs",
+              "RelativeDocumentMoniker": "FunctionHelper.cs",
+              "ToolTip": "E:\\thinh\\BuITienThinh_22102363\\FunctionHelper.cs",
+              "RelativeToolTip": "FunctionHelper.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T07:17:47.204Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
