@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainFormcs));
             menuStrip1 = new MenuStrip();
             qLSPToolStripMenuItem = new ToolStripMenuItem();
             qLTKToolStripMenuItem = new ToolStripMenuItem();
@@ -37,12 +36,9 @@
             casToolStripMenuItem = new ToolStripMenuItem();
             verticalToolStripMenuItem = new ToolStripMenuItem();
             gridViewToolStripMenuItem = new ToolStripMenuItem();
-            gridViewToolStripMenuItem1 = new ToolStripMenuItem();
             frmProductToolStripMenuItem = new ToolStripMenuItem();
             statusStrip1 = new StatusStrip();
-            pictureBox1 = new PictureBox();
             menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // menuStrip1
@@ -54,6 +50,7 @@
             menuStrip1.Size = new Size(1163, 28);
             menuStrip1.TabIndex = 1;
             menuStrip1.Text = "menuStrip1";
+            menuStrip1.ItemClicked += menuStrip1_ItemClicked;
             // 
             // qLSPToolStripMenuItem
             // 
@@ -67,12 +64,14 @@
             qLTKToolStripMenuItem.Name = "qLTKToolStripMenuItem";
             qLTKToolStripMenuItem.Size = new Size(57, 24);
             qLTKToolStripMenuItem.Text = "QLTK";
+            qLTKToolStripMenuItem.Click += qLTKToolStripMenuItem_Click_1;
             // 
             // banHangTreeViewToolStripMenuItem
             // 
             banHangTreeViewToolStripMenuItem.Name = "banHangTreeViewToolStripMenuItem";
             banHangTreeViewToolStripMenuItem.Size = new Size(144, 24);
             banHangTreeViewToolStripMenuItem.Text = "BanHangTreeView";
+            banHangTreeViewToolStripMenuItem.Click += banHangTreeViewToolStripMenuItem_Click_1;
             // 
             // layOutToolStripMenuItem
             // 
@@ -80,6 +79,7 @@
             layOutToolStripMenuItem.Name = "layOutToolStripMenuItem";
             layOutToolStripMenuItem.Size = new Size(69, 24);
             layOutToolStripMenuItem.Text = "LayOut";
+            layOutToolStripMenuItem.Click += layOutToolStripMenuItem_Click;
             // 
             // casToolStripMenuItem
             // 
@@ -97,17 +97,10 @@
             // 
             // gridViewToolStripMenuItem
             // 
-            gridViewToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { gridViewToolStripMenuItem1 });
             gridViewToolStripMenuItem.Name = "gridViewToolStripMenuItem";
             gridViewToolStripMenuItem.Size = new Size(83, 24);
             gridViewToolStripMenuItem.Text = "GridView";
             gridViewToolStripMenuItem.Click += gridViewToolStripMenuItem_Click;
-            // 
-            // gridViewToolStripMenuItem1
-            // 
-            gridViewToolStripMenuItem1.Name = "gridViewToolStripMenuItem1";
-            gridViewToolStripMenuItem1.Size = new Size(152, 26);
-            gridViewToolStripMenuItem1.Text = "GridView";
             // 
             // frmProductToolStripMenuItem
             // 
@@ -119,29 +112,18 @@
             // statusStrip1
             // 
             statusStrip1.ImageScalingSize = new Size(20, 20);
-            statusStrip1.Location = new Point(0, 622);
+            statusStrip1.Location = new Point(0, 620);
             statusStrip1.Name = "statusStrip1";
-            statusStrip1.Size = new Size(1163, 22);
+            statusStrip1.Size = new Size(1163, 24);
             statusStrip1.TabIndex = 3;
             statusStrip1.Text = "statusStrip1";
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Dock = DockStyle.Fill;
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(0, 28);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(1163, 594);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 5;
-            pictureBox1.TabStop = false;
+            statusStrip1.ItemClicked += statusStrip1_ItemClicked;
             // 
             // MainFormcs
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1163, 644);
-            Controls.Add(pictureBox1);
             Controls.Add(statusStrip1);
             Controls.Add(menuStrip1);
             IsMdiContainer = true;
@@ -151,7 +133,6 @@
             Load += MainFormcs_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -167,7 +148,6 @@
         private ToolStripMenuItem verticalToolStripMenuItem;
         private StatusStrip statusStrip1;
         private ToolStripMenuItem gridViewToolStripMenuItem;
-        private ToolStripMenuItem gridViewToolStripMenuItem1;
         private ToolStripMenuItem frmProductToolStripMenuItem;
         private PictureBox pictureBox1;
     }

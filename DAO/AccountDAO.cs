@@ -13,8 +13,8 @@ namespace BuiTienThinh_22102363.DAO
         public AccountDAO()
         {
             // Lấy chuỗi kết nối từ app.config
-            /*  connectionString = ConfigurationManager.ConnectionStrings["LoveStore2"].ConnectionString;*/
-            new SqlDataAccessHelper();
+            connectionString = ConfigurationManager.ConnectionStrings["LoveStore2"].ConnectionString;
+
         }
 
         // Lấy tất cả tài khoản

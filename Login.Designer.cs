@@ -86,6 +86,7 @@
             // 
             textBox2.Location = new Point(337, 194);
             textBox2.Name = "textBox2";
+            textBox2.PasswordChar = '.';
             textBox2.Size = new Size(295, 27);
             textBox2.TabIndex = 5;
             textBox2.TextChanged += textBox2_TextChanged;
@@ -114,7 +115,6 @@
             Controls.Add(button1);
             Name = "Login";
             Text = "Login";
-           
             ResumeLayout(false);
             PerformLayout();
         }

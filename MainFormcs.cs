@@ -28,24 +28,13 @@ namespace BuiTienThinh_22102363
             QLSP.Show();
         }
 
-        private void banHangTreeViewToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            BanHangTreeView BanHangTreeView = new BanHangTreeView();
-            BanHangTreeView.MdiParent = this;
-            BanHangTreeView.Show();
-        }
+
 
         private void Login_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void qLTKToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            QLTK QLTK = new QLTK();
-            QLTK.MdiParent = this;
-            QLTK.Show();
-        }
 
         private void verticalToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
@@ -76,15 +65,36 @@ namespace BuiTienThinh_22102363
             gridView.Show();
 
         }
-/*
-        private void timer1_Tick(object sender, EventArgs e)
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
 
-        }*/
+        }
 
-       /* private void timer_Tick(object sender, EventArgs e)
+        private void qLTKToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            QLTK QLTK = new QLTK();
+            QLTK.MdiParent = this;
+            QLTK.Show();
+
+        }
+
+        private void banHangTreeViewToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            BanHangTreeView BanHangTreeView = new BanHangTreeView();
+            BanHangTreeView.MdiParent = this;
+            BanHangTreeView.Show();
+
+        }
+
+        private void layOutToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
-        }*/
+        }
+
+        private void statusStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
     }
 }

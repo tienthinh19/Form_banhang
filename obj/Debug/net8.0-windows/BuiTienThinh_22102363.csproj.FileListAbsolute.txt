@@ -25,10 +25,10 @@ E:\thinh\WinFormsApp3\obj\Debug\net8.0-windows\refint\BuiTienThinh_22102363.dll
 E:\thinh\WinFormsApp3\obj\Debug\net8.0-windows\BuiTienThinh_22102363.pdb
 E:\thinh\WinFormsApp3\obj\Debug\net8.0-windows\BuiTienThinh_22102363.genruntimeconfig.cache
 E:\thinh\WinFormsApp3\obj\Debug\net8.0-windows\ref\BuiTienThinh_22102363.dll
-E:\thinh\BuITienThinh_22102363\bin\Debug\net8.0-windows\BuiTienThinh_22102363.exe
-E:\thinh\BuITienThinh_22102363\bin\Debug\net8.0-windows\BuiTienThinh_22102363.dll
-E:\thinh\BuITienThinh_22102363\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
-E:\thinh\BuITienThinh_22102363\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\thinh\BuiTienThinh_22102363\bin\Debug\net8.0-windows\BuiTienThinh_22102363.exe
+E:\thinh\BuiTienThinh_22102363\bin\Debug\net8.0-windows\BuiTienThinh_22102363.dll
+E:\thinh\BuiTienThinh_22102363\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+E:\thinh\BuiTienThinh_22102363\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 E:\thinh\BuiTienThinh_22102363\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
 E:\thinh\BuiTienThinh_22102363\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
 E:\thinh\BuiTienThinh_22102363\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
@@ -36,6 +36,7 @@ E:\thinh\BuiTienThinh_22102363\bin\Debug\net8.0-windows\runtimes\unix\lib\netcor
 E:\thinh\BuiTienThinh_22102363\obj\Debug\net8.0-windows\BuiTienThinh_22102363.csproj.AssemblyReference.cache
 E:\thinh\BuiTienThinh_22102363\obj\Debug\net8.0-windows\BuiTienThinh_22102363.BanHangTreeView.resources
 E:\thinh\BuiTienThinh_22102363\obj\Debug\net8.0-windows\BuiTienThinh_22102363.frmProduct.resources
+E:\thinh\BuiTienThinh_22102363\obj\Debug\net8.0-windows\BuiTienThinh_22102363.GridView.resources
 E:\thinh\BuiTienThinh_22102363\obj\Debug\net8.0-windows\BuiTienThinh_22102363.Login.resources
 E:\thinh\BuiTienThinh_22102363\obj\Debug\net8.0-windows\BuiTienThinh_22102363.MainFormcs.resources
 E:\thinh\BuiTienThinh_22102363\obj\Debug\net8.0-windows\BuiTienThinh_22102363.Properties.Resources.resources
@@ -46,6 +47,7 @@ E:\thinh\BuiTienThinh_22102363\obj\Debug\net8.0-windows\BuiTienThinh_22102363.Ge
 E:\thinh\BuiTienThinh_22102363\obj\Debug\net8.0-windows\BuiTienThinh_22102363.AssemblyInfoInputs.cache
 E:\thinh\BuiTienThinh_22102363\obj\Debug\net8.0-windows\BuiTienThinh_22102363.AssemblyInfo.cs
 E:\thinh\BuiTienThinh_22102363\obj\Debug\net8.0-windows\BuiTienThinh_22102363.csproj.CoreCompileInputs.cache
+E:\thinh\BuiTienThinh_22102363\obj\Debug\net8.0-windows\BuiTienThinh_22102363.sourcelink.json
 E:\thinh\BuiTienThinh_22102363\obj\Debug\net8.0-windows\BuiTienT.10417DD1.Up2Date
 E:\thinh\BuiTienThinh_22102363\obj\Debug\net8.0-windows\BuiTienThinh_22102363.dll
 E:\thinh\BuiTienThinh_22102363\obj\Debug\net8.0-windows\refint\BuiTienThinh_22102363.dll
@@ -54,6 +56,5 @@ E:\thinh\BuiTienThinh_22102363\bin\Debug\net8.0-windows\BuiTienThinh_22102363.dl
 E:\thinh\BuiTienThinh_22102363\bin\Debug\net8.0-windows\BuiTienThinh_22102363.deps.json
 E:\thinh\BuiTienThinh_22102363\bin\Debug\net8.0-windows\BuiTienThinh_22102363.runtimeconfig.json
 E:\thinh\BuiTienThinh_22102363\bin\Debug\net8.0-windows\BuiTienThinh_22102363.pdb
-E:\thinh\BuiTienThinh_22102363\obj\Debug\net8.0-windows\BuiTienThinh_22102363.GridView.resources
 E:\thinh\BuiTienThinh_22102363\obj\Debug\net8.0-windows\BuiTienThinh_22102363.genruntimeconfig.cache
 E:\thinh\BuiTienThinh_22102363\obj\Debug\net8.0-windows\ref\BuiTienThinh_22102363.dll
