@@ -37,11 +37,12 @@
             label3 = new Label();
             label4 = new Label();
             label6 = new Label();
-            comboBox1 = new ComboBox();
             label7 = new Label();
             button2 = new Button();
             textBox6 = new TextBox();
             button1 = new Button();
+            listView1 = new ListView();
+            button3 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -121,15 +122,6 @@
             label6.TabIndex = 10;
             label6.Text = "Mật khẩu :";
             // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(272, 568);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(381, 28);
-            comboBox1.TabIndex = 12;
-            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
-            // 
             // label7
             // 
             label7.AutoSize = true;
@@ -163,20 +155,40 @@
             button1.Name = "button1";
             button1.Size = new Size(94, 29);
             button1.TabIndex = 16;
-            button1.Text = "Thêm:";
+            button1.Text = "Thêm";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click_1;
+            // 
+            // listView1
+            // 
+            listView1.Location = new Point(272, 571);
+            listView1.Name = "listView1";
+            listView1.Size = new Size(381, 121);
+            listView1.TabIndex = 17;
+            listView1.UseCompatibleStateImageBehavior = false;
+            listView1.SelectedIndexChanged += listView1_SelectedIndexChanged;
+            // 
+            // button3
+            // 
+            button3.Location = new Point(272, 369);
+            button3.Name = "button3";
+            button3.Size = new Size(94, 29);
+            button3.TabIndex = 18;
+            button3.Text = "Cập nhật";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // QLTK
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(868, 690);
+            ClientSize = new Size(1226, 756);
+            Controls.Add(button3);
+            Controls.Add(listView1);
             Controls.Add(button1);
             Controls.Add(textBox6);
             Controls.Add(button2);
             Controls.Add(label7);
-            Controls.Add(comboBox1);
             Controls.Add(label6);
             Controls.Add(label4);
             Controls.Add(label3);
@@ -204,10 +216,11 @@
         private Label label3;
         private Label label4;
         private Label label6;
-        private ComboBox comboBox1;
         private Label label7;
         private Button button2;
         private TextBox textBox6;
         private Button button1;
+        private ListView listView1;
+        private Button button3;
     }
 }

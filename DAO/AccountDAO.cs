@@ -118,5 +118,20 @@ namespace BuiTienThinh_22102363.DAO
                 }
             }
         }
+        // Cập nhật tài khoản
+        public void Update(Account account)
+        {
+            string query = "UPDATE [Account] SET Email = @Email, FullName = @FullName, RoleId = @RoleId, Password = @Password WHERE Id = @Id";
+            SqlParameter[] sqlParameters = new SqlParameter[]
+            {
+                new SqlParameter("@Id", SqlDbType.Int) { Value = account.Id },
+                new SqlParameter("@Email", SqlDbType.NVarChar) { Value = account.Email },
+                new SqlParameter("@FullName", SqlDbType.NVarChar) { Value = account.FullName },
+                new SqlParameter("@RoleId", SqlDbType.NVarChar) { Value = account.RoleId },
+                new SqlParameter("@Password", SqlDbType.NVarChar) { Value = account.Password }
+            };
+
+            ExecuteNonQuery(query, sqlParameters);
+        }
     }
 }

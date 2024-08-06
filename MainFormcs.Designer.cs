@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainFormcs));
             menuStrip1 = new MenuStrip();
             qLSPToolStripMenuItem = new ToolStripMenuItem();
             qLTKToolStripMenuItem = new ToolStripMenuItem();
@@ -112,9 +113,9 @@
             // statusStrip1
             // 
             statusStrip1.ImageScalingSize = new Size(20, 20);
-            statusStrip1.Location = new Point(0, 620);
+            statusStrip1.Location = new Point(0, 622);
             statusStrip1.Name = "statusStrip1";
-            statusStrip1.Size = new Size(1163, 24);
+            statusStrip1.Size = new Size(1163, 22);
             statusStrip1.TabIndex = 3;
             statusStrip1.Text = "statusStrip1";
             statusStrip1.ItemClicked += statusStrip1_ItemClicked;
@@ -123,6 +124,8 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1163, 644);
             Controls.Add(statusStrip1);
             Controls.Add(menuStrip1);

@@ -5,7 +5,7 @@ using System.Configuration;
 
 namespace BuiTienThinh_22102363
 {
-    internal class SqlDataAccessHelper
+    public class SqlDataAccessHelper
     {
         private static SqlDataAdapter myAdapter;
         private static SqlConnection conn;
@@ -19,6 +19,13 @@ namespace BuiTienThinh_22102363
 
         private static SqlConnection OpenConnection()
         {
+            if (conn == null)
+            {
+                string connectionString = "Data Source=(local);Initial Catalog=LoveStore2;Integrated Security=True;TrustServerCertificate=True";
+                conn = new SqlConnection(connectionString);
+            }
+
+            // Kiểm tra trạng thái của kết nối và mở nếu cần
             if (conn.State == ConnectionState.Closed || conn.State == ConnectionState.Broken)
             {
                 conn.Open();
@@ -158,5 +165,26 @@ namespace BuiTienThinh_22102363
             }
             return true;
         }
+        public static bool ExecuteNonQuery(string query, SqlParameter[] parameters = null)
+        {
+            SqlCommand command = new SqlCommand();
+            try
+            {
+                command.Connection = OpenConnection();
+                command.CommandText = query;
+                if (parameters != null)
+                {
+                    command.Parameters.AddRange(parameters);
+                }
+                command.ExecuteNonQuery();
+            }
+            catch (SqlException e)
+            {
+                Console.Write("Error - ExecuteNonQuery - Query: " + query + " \nException: \n" + e.StackTrace.ToString());
+                return false;
+            }
+            return true;
+        }
+
     }
 }

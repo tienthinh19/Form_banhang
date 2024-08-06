@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "E:\\thinh\\BuITienThinh_22102363\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0A0B2ACB-7475-4309-9091-242B2AB9ABDE}|BuiTienThinh_22102363.csproj|e:\\thinh\\buitienthinh_22102363\\mainformcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0A0B2ACB-7475-4309-9091-242B2AB9ABDE}|BuiTienThinh_22102363.csproj|solutionrelative:mainformcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0A0B2ACB-7475-4309-9091-242B2AB9ABDE}|BuiTienThinh_22102363.csproj|e:\\thinh\\buitienthinh_22102363\\sqldataaccesshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0B2ACB-7475-4309-9091-242B2AB9ABDE}|BuiTienThinh_22102363.csproj|solutionrelative:sqldataaccesshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A0B2ACB-7475-4309-9091-242B2AB9ABDE}|BuiTienThinh_22102363.csproj|e:\\thinh\\buitienthinh_22102363\\mainformcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A0B2ACB-7475-4309-9091-242B2AB9ABDE}|BuiTienThinh_22102363.csproj|solutionrelative:mainformcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A0B2ACB-7475-4309-9091-242B2AB9ABDE}|BuiTienThinh_22102363.csproj|e:\\thinh\\buitienthinh_22102363\\dao\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0B2ACB-7475-4309-9091-242B2AB9ABDE}|BuiTienThinh_22102363.csproj|solutionrelative:dao\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A0B2ACB-7475-4309-9091-242B2AB9ABDE}|BuiTienThinh_22102363.csproj|e:\\thinh\\buitienthinh_22102363\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0A0B2ACB-7475-4309-9091-242B2AB9ABDE}|BuiTienThinh_22102363.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0A0B2ACB-7475-4309-9091-242B2AB9ABDE}|BuiTienThinh_22102363.csproj|e:\\thinh\\buitienthinh_22102363\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0A0B2ACB-7475-4309-9091-242B2AB9ABDE}|BuiTienThinh_22102363.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A0B2ACB-7475-4309-9091-242B2AB9ABDE}|BuiTienThinh_22102363.csproj|e:\\thinh\\buitienthinh_22102363\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A0B2ACB-7475-4309-9091-242B2AB9ABDE}|BuiTienThinh_22102363.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A0B2ACB-7475-4309-9091-242B2AB9ABDE}|BuiTienThinh_22102363.csproj|e:\\thinh\\buitienthinh_22102363\\qltk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0B2ACB-7475-4309-9091-242B2AB9ABDE}|BuiTienThinh_22102363.csproj|solutionrelative:qltk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0B2ACB-7475-4309-9091-242B2AB9ABDE}|BuiTienThinh_22102363.csproj|e:\\thinh\\buitienthinh_22102363\\bus\\accountbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A0B2ACB-7475-4309-9091-242B2AB9ABDE}|BuiTienThinh_22102363.csproj|solutionrelative:bus\\accountbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A0B2ACB-7475-4309-9091-242B2AB9ABDE}|BuiTienThinh_22102363.csproj|e:\\thinh\\buitienthinh_22102363\\qltk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0A0B2ACB-7475-4309-9091-242B2AB9ABDE}|BuiTienThinh_22102363.csproj|solutionrelative:qltk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +34,83 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.cs",
-              "DocumentMoniker": "E:\\thinh\\BuITienThinh_22102363\\Login.cs",
-              "RelativeDocumentMoniker": "Login.cs",
-              "ToolTip": "E:\\thinh\\BuITienThinh_22102363\\Login.cs",
-              "RelativeToolTip": "Login.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T08:13:34.568Z",
+              "DocumentIndex": 2,
+              "Title": "App.config",
+              "DocumentMoniker": "E:\\thinh\\BuITienThinh_22102363\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "E:\\thinh\\BuITienThinh_22102363\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAACBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-08-05T09:22:25.91Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "E:\\thinh\\BuITienThinh_22102363\\Login.cs",
-              "RelativeDocumentMoniker": "Login.cs",
-              "ToolTip": "E:\\thinh\\BuITienThinh_22102363\\Login.cs [Design]",
-              "RelativeToolTip": "Login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T08:13:33.341Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainFormcs.cs",
-              "DocumentMoniker": "E:\\thinh\\BuITienThinh_22102363\\MainFormcs.cs",
-              "RelativeDocumentMoniker": "MainFormcs.cs",
-              "ToolTip": "E:\\thinh\\BuITienThinh_22102363\\MainFormcs.cs",
-              "RelativeToolTip": "MainFormcs.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAmwE0AAAAYAAAA",
+              "Title": "AccountDAO.cs",
+              "DocumentMoniker": "E:\\thinh\\BuITienThinh_22102363\\DAO\\AccountDAO.cs",
+              "RelativeDocumentMoniker": "DAO\\AccountDAO.cs",
+              "ToolTip": "E:\\thinh\\BuITienThinh_22102363\\DAO\\AccountDAO.cs",
+              "RelativeToolTip": "DAO\\AccountDAO.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAgwA8AAABRAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T08:04:46.599Z",
+              "WhenOpened": "2024-08-05T09:06:09.029Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainFormcs.cs [Design]",
-              "DocumentMoniker": "E:\\thinh\\BuITienThinh_22102363\\MainFormcs.cs",
-              "RelativeDocumentMoniker": "MainFormcs.cs",
-              "ToolTip": "E:\\thinh\\BuITienThinh_22102363\\MainFormcs.cs [Design]",
-              "RelativeToolTip": "MainFormcs.cs [Design]",
+              "Title": "SqlDataAccessHelper.cs",
+              "DocumentMoniker": "E:\\thinh\\BuITienThinh_22102363\\SqlDataAccessHelper.cs",
+              "RelativeDocumentMoniker": "SqlDataAccessHelper.cs",
+              "ToolTip": "E:\\thinh\\BuITienThinh_22102363\\SqlDataAccessHelper.cs",
+              "RelativeToolTip": "SqlDataAccessHelper.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAIwBgAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T07:33:08.216Z",
+              "WhenOpened": "2024-08-05T09:02:45.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountBUS.cs",
+              "DocumentMoniker": "E:\\thinh\\BuITienThinh_22102363\\BUS\\AccountBUS.cs",
+              "RelativeDocumentMoniker": "BUS\\AccountBUS.cs",
+              "ToolTip": "E:\\thinh\\BuITienThinh_22102363\\BUS\\AccountBUS.cs",
+              "RelativeToolTip": "BUS\\AccountBUS.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAA0wFgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T08:47:34.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QLTK.cs",
+              "DocumentMoniker": "E:\\thinh\\BuITienThinh_22102363\\QLTK.cs",
+              "RelativeDocumentMoniker": "QLTK.cs",
+              "ToolTip": "E:\\thinh\\BuITienThinh_22102363\\QLTK.cs",
+              "RelativeToolTip": "QLTK.cs",
+              "ViewState": "AQIAAH4AAAAAAAAAAAAUwJgAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T08:35:59.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "QLTK.cs [Design]",
+              "DocumentMoniker": "E:\\thinh\\BuITienThinh_22102363\\QLTK.cs",
+              "RelativeDocumentMoniker": "QLTK.cs",
+              "ToolTip": "E:\\thinh\\BuITienThinh_22102363\\QLTK.cs [Design]",
+              "RelativeToolTip": "QLTK.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T08:34:04.858Z",
               "EditorCaption": " [Design]"
             }
           ]
