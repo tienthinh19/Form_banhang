@@ -45,9 +45,13 @@ namespace BuiTienThinh_22102363
                 myCommand.Connection = OpenConnection();
                 myCommand.CommandText = _query;
 
-                myCommand.ExecuteNonQuery();
+                // Khởi tạo SqlDataAdapter
+                SqlDataAdapter myAdapter = new SqlDataAdapter();
+
+                // Gán myCommand cho SelectCommand của myAdapter
                 myAdapter.SelectCommand = myCommand;
 
+                // Điền dữ liệu vào DataSet và DataTable
                 myAdapter.Fill(ds);
                 dataTable = ds.Tables[0];
             }
@@ -56,9 +60,18 @@ namespace BuiTienThinh_22102363
                 Console.Write("Error - Connection.executeSelectQuery - Query: " + _query + " \nException: " + e.StackTrace.ToString());
                 return null;
             }
+            finally
+            {
+                // Đảm bảo đóng kết nối sau khi sử dụng
+                if (myCommand.Connection != null && myCommand.Connection.State == ConnectionState.Open)
+                {
+                    myCommand.Connection.Close();
+                }
+            }
 
             return dataTable;
         }
+
 
         public static DataTable ExecuteSelectQuery(String _query, SqlParameter sqlParameter)
         {
@@ -165,26 +178,20 @@ namespace BuiTienThinh_22102363
             }
             return true;
         }
-        public static bool ExecuteNonQuery(string query, SqlParameter[] parameters = null)
+        public static bool ExecuteNonQuery(string query, SqlParameter[] parameters)
         {
-            SqlCommand command = new SqlCommand();
-            try
+            using (SqlConnection connection = new SqlConnection("Data Source=(local);Initial Catalog=LoveStore2;Integrated Security=True;TrustServerCertificate=True"))
             {
-                command.Connection = OpenConnection();
-                command.CommandText = query;
-                if (parameters != null)
+                using (SqlCommand command = new SqlCommand(query, connection))
                 {
                     command.Parameters.AddRange(parameters);
+                    connection.Open();
+                    int rowsAffected = command.ExecuteNonQuery();
+                    return rowsAffected > 0;
                 }
-                command.ExecuteNonQuery();
             }
-            catch (SqlException e)
-            {
-                Console.Write("Error - ExecuteNonQuery - Query: " + query + " \nException: \n" + e.StackTrace.ToString());
-                return false;
-            }
-            return true;
         }
+
 
     }
 }

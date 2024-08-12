@@ -78,6 +78,7 @@
             // 
             // pictureBox1
             // 
+            pictureBox1.BorderStyle = BorderStyle.FixedSingle;
             pictureBox1.Location = new Point(558, 27);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(243, 312);

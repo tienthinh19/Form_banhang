@@ -32,39 +32,51 @@ namespace BuiTienThinh_22102363
             int count = 0;
             listView1.Items.Clear();
             imageList1.Images.Clear();
+            // Đặt kích thước hình ảnh cho LargeIcon
+            int iconWidth = 128;  // Kích thước rộng của hình ảnh
+            int iconHeight = 128; // Kích thước cao của hình ảnh
 
+            imageList1.ImageSize = new Size(iconWidth, iconHeight);
             if (cbCategory.SelectedItem != null && cbCategory.SelectedValue != null)
             {
-
                 int categoryId = ((Category)cbCategory.SelectedItem).CategoryId;
                 textBox4.Text = categoryId.ToString();
-
 
                 List<Product> proList = productBUS.GetProductsByCategoryId(categoryId);
                 foreach (Product p in proList)
                 {
                     if (p.Picture != null)
                     {
-                        Image img = ConvertBinaryToImage(p.Picture);
-                        imageList1.Images.Add(img);
+                        try
+                        {
+                            Image img = ConvertBinaryToImage(p.Picture);
+                            imageList1.Images.Add(img);
+                        }
+                        catch (Exception ex)
+                        {
+                            MessageBox.Show("Error converting image: " + ex.Message);
+                            continue;
+                        }
                     }
-                    ListViewItem item = new ListViewItem(p.Description);
-                    item.ImageIndex = count;
+
+                    ListViewItem item = new ListViewItem(p.Description)
+                    {
+                        ImageIndex = count // Đặt chỉ số hình ảnh
+                    };
 
                     item.SubItems.Add(p.Price.ToString());
                     item.SubItems.Add(p.Discount.ToString());
                     item.SubItems.Add(p.CategoryId.ToString());
                     item.Tag = p;
+
                     listView1.Items.Add(item);
                     count++;
-                    if (count == imageList1.Images.Count)
-                    {
-                        count = 0;
-                    }
                 }
+
+                // Đặt ImageList cho ListView sau khi thêm hình ảnh
+                listView1.LargeImageList = imageList1;
             }
         }
-
         private void btnDetail_Click(object sender, EventArgs e)
         {
             listView1.View = View.Details;
@@ -94,9 +106,10 @@ namespace BuiTienThinh_22102363
             {
                 MessageBox.Show("Failed to load categories.");
             }
-
             listView1.LargeImageList = imageList1;
-            listView1.SmallImageList = imageList1;
+
+            /*            listView1.LargeImageList = imageList1;
+                        listView1.SmallImageList = imageList1;*/
         }
 
         public byte[] ConvertImageToBinary(Image image)

@@ -38,14 +38,16 @@
             verticalToolStripMenuItem = new ToolStripMenuItem();
             gridViewToolStripMenuItem = new ToolStripMenuItem();
             frmProductToolStripMenuItem = new ToolStripMenuItem();
+            exitToolStripMenuItem = new ToolStripMenuItem();
             statusStrip1 = new StatusStrip();
+            chartToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // menuStrip1
             // 
             menuStrip1.ImageScalingSize = new Size(20, 20);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { qLSPToolStripMenuItem, qLTKToolStripMenuItem, banHangTreeViewToolStripMenuItem, layOutToolStripMenuItem, gridViewToolStripMenuItem, frmProductToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { qLSPToolStripMenuItem, qLTKToolStripMenuItem, banHangTreeViewToolStripMenuItem, layOutToolStripMenuItem, gridViewToolStripMenuItem, frmProductToolStripMenuItem, exitToolStripMenuItem, chartToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(1163, 28);
@@ -110,6 +112,13 @@
             frmProductToolStripMenuItem.Text = "frmProduct";
             frmProductToolStripMenuItem.Click += frmProductToolStripMenuItem_Click;
             // 
+            // exitToolStripMenuItem
+            // 
+            exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            exitToolStripMenuItem.Size = new Size(47, 24);
+            exitToolStripMenuItem.Text = "Exit";
+            exitToolStripMenuItem.Click += exitToolStripMenuItem_Click;
+            // 
             // statusStrip1
             // 
             statusStrip1.ImageScalingSize = new Size(20, 20);
@@ -119,6 +128,13 @@
             statusStrip1.TabIndex = 3;
             statusStrip1.Text = "statusStrip1";
             statusStrip1.ItemClicked += statusStrip1_ItemClicked;
+            // 
+            // chartToolStripMenuItem
+            // 
+            chartToolStripMenuItem.Name = "chartToolStripMenuItem";
+            chartToolStripMenuItem.Size = new Size(58, 24);
+            chartToolStripMenuItem.Text = "Chart";
+            chartToolStripMenuItem.Click += chartToolStripMenuItem_Click;
             // 
             // MainFormcs
             // 
@@ -153,5 +169,7 @@
         private ToolStripMenuItem gridViewToolStripMenuItem;
         private ToolStripMenuItem frmProductToolStripMenuItem;
         private PictureBox pictureBox1;
+        private ToolStripMenuItem exitToolStripMenuItem;
+        private ToolStripMenuItem chartToolStripMenuItem;
     }
 }

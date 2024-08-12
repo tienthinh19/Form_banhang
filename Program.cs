@@ -16,8 +16,11 @@ namespace BuiTienThinh_22102363
             
             Application.Run(new BanHangTreeView());
             Application.Run(new GridView());*/
-            /* Application.Run(new frmProduct());*/
-            Application.Run(new Login());
+            /*Application.Run(new frmProduct());*/
+            /* Application.Run(new Login());*/
+            /*Application.Run(new BanHangTreeView());*/
+            /*Application.Run(new Chart());*/
+            Application.Run(new QLNS());
         }
     }
 }

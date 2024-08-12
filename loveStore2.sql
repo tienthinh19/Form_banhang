@@ -1,4 +1,4 @@
-USE Master
+﻿USE Master
 GO
 create database LoveStore2
 GO
@@ -16,13 +16,17 @@ create table Employee
 (
 	Id int identity primary key,
 	Position nvarchar(50),
-	AccountId int references Account(Id)
+	AccountId int references Account(Id),
+	FullName [nvarchar](50) NOT NULL,
+	DiaChi [nvarchar](50) NOT NULL,
+	DateofBirth date ,
+	[Picture] [varbinary] (MAX) 
 )
 go
 create table Customer
 (
 	Id int identity primary key,
-	AccountId int references Account(Id)
+	FullName nvarchar(50)
 )
 go
 
@@ -30,7 +34,6 @@ CREATE TABLE [dbo].[Order](
 	[Id] [int] IDENTITY(1,1) NOT NULL primary key,
 	[Date] [datetime] NOT NULL,
 	[Status] [varchar](30) NULL,
-	[CustomerId] [int] NOT NULL references Customer(Id),
 	[EmployeeId] [int] NOT NULL references Employee(Id)
 )
 GO
@@ -66,7 +69,62 @@ insert into Account values
 ('user4@gmail.com', 'Thinh4', 'US', '1')
 
 
+--INSERT INTO [dbo].[Order] ([Date], [Status], [CustomerId], [EmployeeId])
+--VALUES (GETDATE(), 'example', 2, 1);  -- CustomerId và EmployeeId là ID từ các bảng tương ứng
+
+
+
 GO
+INSERT INTO Employee (Position, AccountId, FullName, DiaChi, DateofBirth, Picture)
+SELECT 
+    'Position1',  
+    1,            
+    'Full Name 1',
+    'Address 1',  
+    '1990-01-01', 
+    BulkColumn
+FROM OPENROWSET(BULK N'C:\Users\Administrator\OneDrive\Pictures\New folder\0a16c0e9-7123-4bd9-a1e2-36aab2190393.jpg', SINGLE_BLOB) AS img;
+
+INSERT INTO Employee (Position, AccountId, FullName, DiaChi, DateofBirth, Picture)
+SELECT 
+    'Position2',  -- Thay thế bằng vị trí thực tế
+    2,            -- Thay thế bằng AccountId thực tế
+    'Full Name 2',-- Thay thế bằng tên đầy đủ thực tế
+    'Address 2',  -- Thay thế bằng địa chỉ thực tế
+    '1991-02-02', -- Thay thế bằng ngày sinh thực tế
+    BulkColumn
+FROM OPENROWSET(BULK N'C:\Users\Administrator\OneDrive\Pictures\New folder\0fbac511ddccc3ffdc7abaa01a40db08.jpg', SINGLE_BLOB) AS img;
+
+INSERT INTO Employee (Position, AccountId, FullName, DiaChi, DateofBirth, Picture)
+SELECT 
+    'Position3',  -- Thay thế bằng vị trí thực tế
+    3,            -- Thay thế bằng AccountId thực tế
+    'Full Name 3',-- Thay thế bằng tên đầy đủ thực tế
+    'Address 3',  -- Thay thế bằng địa chỉ thực tế
+    '1992-03-03', -- Thay thế bằng ngày sinh thực tế
+    BulkColumn
+FROM OPENROWSET(BULK N'C:\Users\Administrator\OneDrive\Pictures\New folder\4f1b761e99684b4b16015af01396f00d.jpg', SINGLE_BLOB) AS img;
+
+INSERT INTO Employee (Position, AccountId, FullName, DiaChi, DateofBirth, Picture)
+SELECT 
+    'Position4',  -- Thay thế bằng vị trí thực tế
+    4,            -- Thay thế bằng AccountId thực tế
+    'Full Name 4',-- Thay thế bằng tên đầy đủ thực tế
+    'Address 4',  -- Thay thế bằng địa chỉ thực tế
+    '1993-04-04', -- Thay thế bằng ngày sinh thực tế
+    BulkColumn
+FROM OPENROWSET(BULK N'C:\Users\Administrator\OneDrive\Pictures\New folder\435000928_825156832985441_692707697083143427_n.jpg', SINGLE_BLOB) AS img;
+
+INSERT INTO Employee (Position, AccountId, FullName, DiaChi, DateofBirth, Picture)
+SELECT 
+    'Position5',  -- Thay thế bằng vị trí thực tế
+    5,            -- Thay thế bằng AccountId thực tế
+    'Full Name 5',-- Thay thế bằng tên đầy đủ thực tế
+    'Address 5',  -- Thay thế bằng địa chỉ thực tế
+    '1994-05-05', -- Thay thế bằng ngày sinh thực tế
+    BulkColumn
+FROM OPENROWSET(BULK N'C:\Users\Administrator\OneDrive\Pictures\New folder\740d668618c011650fdc301edf08c0f3.jpg', SINGLE_BLOB) AS img;
+
 SET IDENTITY_INSERT [dbo].[Category] ON 
 -- Insert a ring category with an image
 INSERT INTO [dbo].[Category] (Name, Picture)

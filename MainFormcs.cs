@@ -96,5 +96,20 @@ namespace BuiTienThinh_22102363
         {
 
         }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.Show();
+            this.Close();
+        }
+
+        private void chartToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Chart chart = new Chart();
+            chart.MdiParent = this;
+            chart.Show();
+
+        }
     }
 }

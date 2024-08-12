@@ -29,14 +29,17 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmProduct));
             label1 = new Label();
             cbCategory = new ComboBox();
             btnDetail = new Button();
             btnLargeIcon = new Button();
             btnSmallIcon = new Button();
-            imageList1 = new ImageList(components);
             listView1 = new ListView();
+            Description = new ColumnHeader();
+            Price = new ColumnHeader();
+            Discount = new ColumnHeader();
+            CategoryId = new ColumnHeader();
+            imageList1 = new ImageList(components);
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
@@ -56,10 +59,6 @@
             button7 = new Button();
             button4 = new Button();
             button5 = new Button();
-            CategoryId = new ColumnHeader();
-            Discount = new ColumnHeader();
-            Price = new ColumnHeader();
-            Description = new ColumnHeader();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -111,44 +110,43 @@
             btnSmallIcon.UseVisualStyleBackColor = true;
             btnSmallIcon.Click += btnSmallIcon_Click;
             // 
-            // imageList1
-            // 
-            imageList1.ColorDepth = ColorDepth.Depth32Bit;
-            imageList1.ImageStream = (ImageListStreamer)resources.GetObject("imageList1.ImageStream");
-            imageList1.TransparentColor = Color.Transparent;
-            imageList1.Images.SetKeyName(0, "bongtai1.png");
-            imageList1.Images.SetKeyName(1, "bongtai2.png");
-            imageList1.Images.SetKeyName(2, "bongtai3.png");
-            imageList1.Images.SetKeyName(3, "lactay1.png");
-            imageList1.Images.SetKeyName(4, "lactay2.png");
-            imageList1.Images.SetKeyName(5, "lactay3.png");
-            imageList1.Images.SetKeyName(6, "nhan1.png");
-            imageList1.Images.SetKeyName(7, "nhan2.png");
-            imageList1.Images.SetKeyName(8, "nhan3.png");
-            imageList1.Images.SetKeyName(9, "vongco1.png");
-            imageList1.Images.SetKeyName(10, "vongco2.png");
-            imageList1.Images.SetKeyName(11, "vongco3.png");
-            // 
             // listView1
             // 
             listView1.Columns.AddRange(new ColumnHeader[] { Description, Price, Discount, CategoryId });
             listView1.LargeImageList = imageList1;
-            listView1.Location = new Point(628, 210);
+            listView1.Location = new Point(626, 203);
             listView1.Name = "listView1";
-            listView1.Size = new Size(590, 254);
-            listView1.SmallImageList = imageList1;
+            listView1.Size = new Size(590, 318);
             listView1.TabIndex = 6;
             listView1.UseCompatibleStateImageBehavior = false;
             listView1.SelectedIndexChanged += listView1_SelectedIndexChanged;
+            // 
+            // Description
+            // 
+            Description.Width = 200;
+            // 
+            // Price
+            // 
+            Price.Width = 200;
+            // 
+            // Discount
+            // 
+            Discount.Width = 200;
+            // 
+            // imageList1
+            // 
+            imageList1.ColorDepth = ColorDepth.Depth32Bit;
+            imageList1.ImageSize = new Size(200, 200);
+            imageList1.TransparentColor = Color.Transparent;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Location = new Point(628, 136);
             label2.Name = "label2";
-            label2.Size = new Size(145, 20);
+            label2.Size = new Size(148, 20);
             label2.TabIndex = 5;
-            label2.Text = "Danh Mục Sản Phẩm";
+            label2.Text = "Danh Sách Sản Phẩm";
             label2.Click += label2_Click;
             // 
             // label3
@@ -198,6 +196,7 @@
             // 
             // pictureBox1
             // 
+            pictureBox1.BorderStyle = BorderStyle.FixedSingle;
             pictureBox1.Location = new Point(181, 364);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(341, 244);
@@ -357,7 +356,6 @@
         private Button btnDetail;
         private Button btnLargeIcon;
         private Button btnSmallIcon;
-        private ImageList imageList1;
         private ListView listView1;
         private Label label2;
         private Label label3;
@@ -382,5 +380,6 @@
         private ColumnHeader Price;
         private ColumnHeader Discount;
         private ColumnHeader CategoryId;
+        private ImageList imageList1;
     }
 }

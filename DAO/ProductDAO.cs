@@ -97,14 +97,14 @@ namespace BuiTienThinh_22102363.DAO
 
             return SqlDataAccessHelper.ExecuteInsertQuery(query, parameters);
         }
-        /*public DataTable SearchByName(string _username)
+        public DataTable SearchProductByDescription(string description)
         {
-            string query = "SELECT * FROM [t01_user] WHERE t01_firstname LIKE @t01_firstname";
-            SqlParameter sqlParameter = new SqlParameter("@t01_firstname", SqlDbType.VarChar)
-            {
-                Value = "%" + _username + "%"
-            };
-            return SqlDataAccessHelper.ExecuteSelectQuery(query, new SqlParameter[] { sqlParameter });
-        }*/
+            string query = "SELECT * FROM [Product] WHERE Description LIKE @Description";
+
+            SqlParameter sqlParameter = new SqlParameter("@Description", SqlDbType.NVarChar) { Value = "%" + description + "%" };
+
+            return SqlDataAccessHelper.ExecuteSelectQuery(query, sqlParameter);
+        }
+
     }
 }

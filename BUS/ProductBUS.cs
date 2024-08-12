@@ -98,4 +98,34 @@ internal class ProductBUS
         };
         return SqlDataAccessHelper.ExecuteInsertQuery(query, sqlParameters);
     }
+    public List<Product> SearchProductsByDescription(string description)
+    {
+        try
+        {
+            DataTable dataTable = productDAO.SearchProductByDescription(description);
+            List<Product> productList = new List<Product>();
+
+            foreach (DataRow dr in dataTable.Rows)
+            {
+                Product pro = new Product
+                {
+                    Id = Convert.ToInt32(dr["Id"]),
+                    Description = dr["Description"].ToString(),
+                    Price = Convert.ToSingle(dr["Price"]),
+                    Discount = Convert.ToSingle(dr["Discount"]),
+                    CategoryId = Convert.ToInt32(dr["CategoryId"]),
+                    Picture = dr["Picture"] as byte[]
+                };
+                productList.Add(pro);
+            }
+
+            return productList;
+        }
+        catch (Exception ex)
+        {
+            MessageBox.Show("Error in SearchProductsByDescription: " + ex.Message);
+            throw;
+        }
+    }
+
 }

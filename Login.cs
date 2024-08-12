@@ -68,6 +68,9 @@ namespace BuiTienThinh_22102363
 
         }
 
-     
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

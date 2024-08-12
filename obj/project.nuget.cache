@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "muDdQcd7Vpo=",
+  "dgSpecHash": "diACDrZ79n4=",
   "success": true,
   "projectFilePath": "E:\\thinh\\BuiTienThinh_22102363\\BuiTienThinh_22102363.csproj",
   "expectedPackageFiles": [
@@ -25,7 +25,8 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.text.regularexpressions\\4.3.0\\system.text.regularexpressions.4.3.0.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512"
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\winforms.datavisualization\\1.9.2\\winforms.datavisualization.1.9.2.nupkg.sha512"
   ],
   "logs": []
 }
